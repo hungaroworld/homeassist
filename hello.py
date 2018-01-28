@@ -2,6 +2,7 @@ import speech_recognition as sr
 import speech
 import time
 
+#This wont work, there is a lot of options for raspberry pi
 response = speech.input("Say something, please.")
 speech.say("You said " + response)
 
